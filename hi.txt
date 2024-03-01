@@ -50,3 +50,48 @@ Execute function 2,3,4,5 and 6 by passing them in a container to the adaptor alo
 
 Create a function.h and cpp and execute it in the main.cpp
 if it is possible make exceptions files also if in use
+
+
+
+
+
+
+Create a class product with the following attributes
+
+productid which could be alphanumeric.
+productType which could be FOOD,PERFUME, orAPPLINCE.
+productPrice which is a float value.
+productBrand which is a string value.
+productOrigin which could be DOMESTIC or IMPORTED
+productTaxAmount which is a float value.This amount is always 5% f the productPrice value/[Set the value in the constructor accordingly using an expression]
+
+Create constructors,getter,setters and all other relevent speacial member functions are required\
+
+Create the followingusing lamda function syntax
+
+1.Create atleat 3 instances of Product class on the heap and manage them using smart  or raw pointers.Manage heap allocations manualy in case of using regular/raw pointers
+
+2.A function to find and display the average productPrice value for all products whose productType is provided as an argument.
+Hint: Only consider instances whose productType matches with the second argument provided to the function
+
+3.A function "DisplayNTaxAmounts" to display the productTaxAmount of the first N instances in the container. N is a value taken as input by the user in function.
+ 
+4. A function to print message to indicate wheather all instances have productTaxAmount is below 500.
+
+5. A function to print the count of each category or group of combination productType and productOrigin from the instances in the container.
+[Hint: A total of 6 category will exists. For example(FOOD,DOMESTIC),(PERFUME,DOMESTIC),and (FOOD,IMPORTED) are 3 groups.Your output should show count for 
+all 6 such groups formed]
+
+6.A function that return a container of addresses(pointers) for Product instances whose productBrand matches the name given as an input string to the function
+
+7. A binded function that binds the value of N function DisplayNTaxAmounts to the number 3.
+
+Note:
+An adaptor that takes a container of objects and a container of functionalities 3 and 4 mentioned above.
+execute these functionalties on the container oassed and display the result
+
+Execute functionalties 1,2 and 5 without using adaptor function to completethe program demonstration
+
+create an appropriate main fynction to demonstrate all functionaltties. Handle all relevant exceptional cases with proper custom exception.HAndle all corner cases
+
+Create functionalties.h and cpp , create class.h and cpp create a exception file if needed and execute it in the main file
