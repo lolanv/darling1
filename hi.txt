@@ -11,38 +11,3 @@ git push -u origin main
 
 
 
-/*
-Create a class Data Handler with the following functions
-
-_data which is an an array of 5 integer value
-_result which is an array of 5 integer values.
-
-         A member function FilterData that accepts a lamda predicate and displayes all value from _data that satisfy the predicate condition
-         For eg. _data = {1,2,3,4,5} and lamda  = [](int num) {return num%4 ==0;} displays output as 4.
-
-          A member function SumOfEven which display the sum of add numbers in the _data array.
-
-         for eg. _data = {1,2,3,4,5} display as 9
-
-         Overload << operator for this class
-
-         A function ComputerSqaure that stores for each of the numbers in an array (passed via an argument to the thread at the time of invocation of  thread)
-        and stores it in a result vector
-
-        A function to display the values of _result vector. This function must only be executed after a signal is recieved from the ComputerSquare to  this 
-        function indicating "value are ready for consumption". Make suitable arrangments for the same.
-
-
-        A function that stores the cube of each of the numbers in an array (passed via an argument to the thread at the time of invocation of thread) 
-        and prints it to the console log.
-
-        Create approropriate special member functions instantiate an object of the class DataHandler. Ensure that only one object for this class can exists
-       at any given time in the program
-
-       Note : 
-       1. HAndle all relevent exceptions
-
-       2. Execute all member functions by seprate thread instances.You should use an array of threads to manage threads instanes created.
-
-       3. Demonstrate the output of all functionalities with appropriate client code
-*/
